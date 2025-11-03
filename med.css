@@ -1,0 +1,136 @@
+body{
+    background-color: #c6e2fa;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: #48488a 0px 0px 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+
+h1{
+    text-align: center;
+    color: #48488a;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.socials a{
+  text-decoration: none;      
+  display: inline-block;
+  margin: 0 3px;              
+}
+.socials img{
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;                 
+  width: 30px;
+  height: 30px;
+}
+.space{
+    margin-top: 3%;
+}
+.aboutMe{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: #48488a 0px 0px 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.aboutMe h2{
+    text-align: center;
+    color: #48488a;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.aboutMe p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+.hobbies{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: #48488a 0px 0px 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.hobbies h2{
+    text-align: center;
+    color: #48488a;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.hobbies ul{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+.hobbies li{
+    margin-bottom: 10px;
+}
+
+table {
+  width: 80%;
+  max-width: 900px;
+  margin: 22px auto;
+  border-collapse: separate;       
+  border-spacing: 0;
+  background-color: #ffffff;      
+  border-radius: 20px;
+  box-shadow: #48488a 0px 0px 10px;
+  overflow: hidden;               
+  font-family: Arial, sans-serif;
+}
+
+th {
+  background-color: #48488a;
+  color: #fff;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+th:first-child { border-top-left-radius: 20px; }
+th:last-child  { border-top-right-radius: 20px; }
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eef4ff;
+  color: #333;
+  background: linear-gradient(180deg,#ffffff,#fbfdff);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 20px;
+}
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+tr:hover td {
+  background-color: #f1f7ff;
+}
+
+@media (max-width: 720px) {
+  table, .container, .aboutMe, .hobbies {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  th, td { padding: 10px; font-size: 15px; }
+}
